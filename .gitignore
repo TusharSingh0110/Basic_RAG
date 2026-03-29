@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+
+# Large models / cache
+*.bin
+*.pt
+*.model
