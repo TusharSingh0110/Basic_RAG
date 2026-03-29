@@ -1,0 +1,8 @@
+RAG (Retrieval Augmented Generation) is an AI architecture that combines retrieval and generation.
+In RAG, documents are first converted into embeddings using models like sentence-transformers.
+These embeddings are stored in a vector database such as FAISS, which allows fast similarity search.
+When a user asks a query, the system retrieves the most relevant document chunks based on vector similarity.
+The retrieved context is then passed along with the user query to a language model.
+The language model generates a final answer using both its internal knowledge and the provided context.
+Chunking is important in RAG because it improves retrieval precision and avoids noisy results.
+If embeddings of query and documents are created using different models, similarity search becomes incorrect.
